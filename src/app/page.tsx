@@ -126,7 +126,7 @@ export default function Home() {
 
       <VoteForm onVote={handleVote} />
 
-      <WinnerCard winner={winner} onLoadWinner={loadWinner} />
+      <WinnerCard winner={winner} isTie={isTie} onLoadWinner={loadWinner} />
 
       <VoterStatus status={status} />
     </main>
